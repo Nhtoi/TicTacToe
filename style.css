@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the top */
+    height: 100vh; /* Make body fill the viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+
+canvas{
+    border: solid 2px white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+#restart-btn {
+    position: absolute;
+    top: 15%; /* Align to the top */
+    transform: translate(-50%, 0); /* Center horizontally */
+    left: 50%; /* Center horizontally */
+    width: 300px;
+    height: 100px;
+    font-size: 25px;
+}
+
+#start-btn {
+    position: absolute;
+    top: 5%; /* Align to the top */
+    transform: translate(-50%, 0); /* Center horizontally */
+    left: 50%; /* Center horizontally */
+    width: 300px;
+    height: 100px;
+    font-size: 25px;
+}
